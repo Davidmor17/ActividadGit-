@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula</title>
+</head>
+<body>
+    <h1>Matricula online</h1>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label>Nombre:</label>
+            <input type="text">
+            <br/>
+            <label>Apellidos:</label>
+            <input type="text">
+            <br/>
+            <label>Correo:</label>
+            <input type="email">
+            <br/>
+            <label>Telefono:</label>
+            <input type="tel">
+            <br/>
+            <label>Fecha de nacimiento:</label>
+            <input type="date">
+            <br/>
+            <label>Talla:</label>
+            <label>S</label><input type="radio" name="Talla">
+            <label>M</label><input type="radio" name="Talla">
+            <label>L</label><input type="radio" name="Talla">
+            <label>XL</label><input type="radio" name="Talla">
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos académicos</legend>
+
+            <label>Elige curso:</label>
+            <select>
+                <optgroup label="Grado medio">
+                    <option>1 SMR</option>
+                    <option disabled>2 SMR</option>
+                </optgroup>
+                <optgroup label="Grado superior">
+                    <option>1 DAM</option>
+                    <option>2 DAM</option>
+                    <option>1 DAW</option>
+                    <option>2 DAW</option>
+                </optgroup>
+
+            </select>
+            <br/>
+            <label>Titulaciones</label>
+            <input type="text">
+            <input type="file" accept=".pdf, .png">
+            <br/>
+            <label>Información adicional:</label>
+            <br/>
+            <textarea placeholder="Incluye Información adicional"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
